@@ -120,14 +120,14 @@ International Journal of Innovative Computing and Applications, Vol. 2, No. 2, p
     <img src="img/sphere.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & \sum_{i=1}^{D}x^{2}_{i}  \\
      & \text{subj.}
      &                          & \text{to}  &  & -5.0 \leq x_{i} \leq 5.0 \\
 \end{aligned}
-$$
+```
 
 ---
 
@@ -136,14 +136,14 @@ $$
     <img src="img/rosenbrock.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & \sum_{i=1}^{D-1} \left( 100 \left( x_{i+1}-x^{2}_{i} \right)^{2} + \left( x_{i}-1 \right)^{2} \right) \\
      & \text{subj.}
      &                          & \text{to}  &  & -5.0 \leq x_{i} \leq 5.0                                                                              \\
 \end{aligned}
-$$
+```
 
 ---
 ## Multimodal Functions
@@ -152,14 +152,14 @@ $$
     <img src="img/2^n-minima.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & \sum_{i=1}^{D} \left( x^{4}_{i}-16x^{2}_{i}+5x_{i} \right) \\
      & \text{subj.}
      &                          & \text{to}  &  & -5.0 \leq x_{i} \leq 5.0                                   \\
 \end{aligned}
-$$
+```
 
 ---
 
@@ -168,7 +168,7 @@ $$
     <img src="img/ackley.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & -20 \exp \left( -0.2 \sqrt{\frac{1}{D} \sum_{i=1}^{D}x^{2}_{i}} \right)   \\
@@ -177,7 +177,7 @@ $$
      & \text{subj.}
      &                          & \text{to}  &  & -32.768 \leq x_{i} \leq 32.768                                            \\
 \end{aligned}
-$$
+```
 
 ---
 
@@ -186,14 +186,14 @@ $$
     <img src="img/griewank.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & 1 + \frac{1}{4000} \sum_{i=1}^{D}x^{2}_i - \prod_{j=1}^{D} \cos \left( \frac{x_j}{\sqrt{j}} \right) \\
      & \text{subj.}
      &                          & \text{to}  &  & -600 \leq x_{i} \leq 600                                                                            \\
 \end{aligned}
-$$
+```
 
 ---
 
@@ -202,14 +202,14 @@ $$
     <img src="img/rastrigin.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & \sum_{i=1}^{D} \left( x^{2}_{i} - 10\cos \left(2 \pi x_{i} \right) + 10 \right) \\
      & \text{subj.}
      &                          & \text{to}  &  & -5.12 \leq x_{i} \leq 5.12                                                      \\
 \end{aligned}
-$$
+```
 
 ---
 
@@ -218,11 +218,11 @@ $$
     <img src="img/schwefel.png" width="50%">
 </div>
 
-$$
+```math
 \begin{aligned}
      & \underset{x}{\text{min}}
      &                          & f(x) = &  & 418.9829D + \sum_{i=1}^{D} \left( -x_{i} \sin \sqrt{\left\lvert x_{i} \right\rvert } \right) \\
      & \text{subj.}
      &                          & \text{to}  &  & -500 \leq x_{i} \leq 500                                                                     \\
 \end{aligned}
-$$
+```
