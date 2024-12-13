@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+src/backend/?pso?*
+src/framework/?pso?*.py
+src/*.py
+!src/main.py
